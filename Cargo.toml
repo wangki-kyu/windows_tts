@@ -7,7 +7,7 @@ description = "A simple text-to-speech (TTS) library for windows"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/wangki-kyu/windows_tts.git"
 keywords = ["tts", "windows", "text-to-speech"]
-categories = ["mulimedia::audio"]
+categories = ["multimedia::audio"]
 
 [dependencies]
 windows = { version = "0.59", features = ["Media", "Win32_System_Com", "Win32_Media_Speech"]}
