@@ -7,7 +7,7 @@ A simple and easy-to-use text-to-speech(TTS) library for Windows.
 Add Dependency
 ```rust
 [dependencies]
-windows_tts = "*"
+windows_tts = "0.1"
 ```
 
 
