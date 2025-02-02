@@ -3,12 +3,11 @@ name = "windows_tts"
 version = "0.1.0"
 edition = "2021"
 authors = ["KIMWOOJUN <rladnwns625@naver.com>"]
-decription = "A simple text-to-speech (TTS) library for windows"
+description = "A simple text-to-speech (TTS) library for windows"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/wangki-kyu/windows_tts.git"
 keywords = ["tts", "windows", "text-to-speech"]
 categories = ["mulimedia::audio"]
-
 
 [dependencies]
 windows = { version = "*", features = ["Media", "Win32_System_Com", "Win32_Media_Speech"]}
