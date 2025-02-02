@@ -13,7 +13,7 @@ windows_tts = "0.1"
 
 ## Usage
 ```rust
-use windows_tts::tts;
+use windows_tts::tts::tts;
 
 tts("test");
 ```
