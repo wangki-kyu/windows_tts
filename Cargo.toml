@@ -10,4 +10,4 @@ keywords = ["tts", "windows", "text-to-speech"]
 categories = ["mulimedia::audio"]
 
 [dependencies]
-windows = { version = "*", features = ["Media", "Win32_System_Com", "Win32_Media_Speech"]}
+windows = { version = "0.59", features = ["Media", "Win32_System_Com", "Win32_Media_Speech"]}
